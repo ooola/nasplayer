@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+    <movies>
+        <movie
+            Title="The Social Network"
+            ShortDescriptionLine1="The Social Network"
+            ShortDescriptionLine2="This is the facebook movie"
+            StreamFormat="mp4"
+            HDPosterUrl = ""
+            SDPosterUrl = ""
+            url="http://192.168.1.111/movies/The.Social.Network.m4v" />
+        <movie
+            Title="The Social Network 2"
+            ShortDescriptionLine1="The Social Network 2"
+            ShortDescriptionLine2="This is the facebook movie 2"
+            StreamFormat="mp4"
+            HDPosterUrl = ""
+            SDPosterUrl = ""
+            url="http://192.168.1.111/movies/The.Social.Network.m4v" />
+        <movie
+            Title="The Social Network 3"
+            ShortDescriptionLine1="The Social Network 3"
+            ShortDescriptionLine2="This is the facebook movie 3"
+            StreamFormat="mp4"
+            HDPosterUrl = ""
+            SDPosterUrl = ""
+            url="http://192.168.1.111/movies/The.Social.Network.m4v" />
+    </movies>
+</rsp>
