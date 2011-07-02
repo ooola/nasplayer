@@ -18,6 +18,6 @@
 APPNAME = nasplayer
 VERSION = 0.1
 
-ZIP_EXCLUDE = -x source/.\*
+ZIP_EXCLUDE = -x source/.\* -x .git\*
 
 include ./app.mk
