@@ -1,7 +1,7 @@
 
 Function getMovieList() As Object
     http = CreateObject("roUrlTransfer")
-    http.SetUrl("http://192.168.1.111/movies/movies.xml")
+    http.SetUrl("http://192.168.1.111:8000/movies/v1")
     xml=http.GetToString()
     rsp=CreateObject("roXMLElement")
     if not rsp.Parse(xml) then stop
