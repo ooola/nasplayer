@@ -1,7 +1,17 @@
-The simpleposter application shows how to
-use roPosterScreen. It shows a poster screen
-with a filter banner of categories. When a 
-new category is selected, the app receives 
-events to refresh the content for the category.  
-It's a minimalist application, designed to just
-show how to set up this screen type.
+
+
+Movie Posters
+-------------
+http://getvideoartwork.com/
+http://valkae.blogspot.com/
+
+
+Switch to zcbuildout
+--------------------
+http://blog.teemu.im/2009/02/08/using-zcbuildout-in-a-twisted-project/
+http://www.robgolding.com/blog/2011/02/05/django-on-twistd-web-wsgi-issue-workaround/
+https://github.com/clemesha/twisted-wsgi-django
+
+TODO
+----
+Read up on REST versioning
