@@ -40,13 +40,13 @@ Sub initTheme()
 
     theme.OverhangOffsetSD_X = "72"
     theme.OverhangOffsetSD_Y = "25"
-    theme.OverhangSliceSD = "pkg:/images/Overhang_BackgroundSlice_Blue_SD43.png"
-    theme.OverhangLogoSD  = "pkg:/images/Logo_Overhang_Roku_SDK_SD43.png"
+    theme.OverhangSliceSD = "pkg:/images/overhang_backgroundslice_black_SD.png"
+    theme.OverhangLogoSD  = "pkg:/images/logo_overhang_rlocal_movies_SD.png"
 
     theme.OverhangOffsetHD_X = "123"
     theme.OverhangOffsetHD_Y = "48"
-    theme.OverhangSliceHD = "pkg:/images/Overhang_BackgroundSlice_Blue_HD.png"
-    theme.OverhangLogoHD  = "pkg:/images/Logo_Overhang_Roku_SDK_HD.png"
+    theme.OverhangSliceHD = "pkg:/images/overhang_backgroundslice_black_HD.png"
+    theme.OverhangLogoHD  = "pkg:/images/logo_overhang_rlocal_movies_HD.png"
 
     app.SetTheme(theme)
 

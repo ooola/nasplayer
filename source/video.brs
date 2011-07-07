@@ -17,6 +17,8 @@ Function displayVideo2(movie As Object)
     'bitrates  = [2048]    ' >=1.1Mbps = 4 dots
     bitrates  = [0]    
 
+    ' TODO: set this so whatever the XML says
+
     if type(args) <> "roAssociativeArray"
         print "args is not an roAssociativeArray, returning"
     '    return
