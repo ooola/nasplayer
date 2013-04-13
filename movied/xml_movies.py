@@ -34,7 +34,7 @@ def get_movie_list(directory=None):
     """Returns a yield'ed list of movies (mp4 and m4v) in the given directory"""
     files = os.listdir(directory)
     for f in files:
-        if f[-4:] == ".mp4" or f[-4:] == ".m4v":
+        if f[-4:] == ".mp4" or f[-4:] == ".m4v" or f[-4:] == ".mov" or f[-4:] == ".avi":
             yield f
 
 if __name__ == '__main__':
